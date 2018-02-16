@@ -7,10 +7,12 @@ $small-font: 0.8em;
 $light-weight: 300;
 $medium-weight: 400;
 $heavy-weight: 600;
-$main-color: #E62565;
-$accent-color: #3ACEFC;
+$main-color: #e62565;
+$light-main-color: #fce5ed;
+$accent-color: #3acefc;
 $gray: #979797;
 
+// Universal default styling
 body {
   font: 100% $font-stack;
   font-size: $medium-font;
@@ -48,6 +50,7 @@ body {
 
 }
 
+// Header-specific styling for all layouts
 .site-header {
   background-color: white;
   border-bottom: 10px solid $main-color;
@@ -69,16 +72,7 @@ body {
   }
 }
 
-.site-footer {
-  span {
-    font-size: $small-font;
-  }
-}
-
-.activity-page-headline{
-  text-align: center;
-}
-
+// Content component styling for all layouts
 .callout {
 
   h3 {
@@ -121,6 +115,20 @@ body {
 
 .no-heading {
   padding-top: 20px;
+}
+
+.activities-headline {
+  background-color: $light-main-color;
+  text-align: center;
+}
+
+.external-logo {
+  text-align: center;
+
+  img {
+    height: 2em;
+    padding: 0 5px;
+  }
 }
 
 .tiles {
@@ -189,4 +197,11 @@ div.video {
   background-color: $gray;
   text-align: center;
   padding-top: 20px;
+}
+
+// Footer-specific styling for all layouts
+.site-footer {
+  span {
+    font-size: $small-font;
+  }
 }
