@@ -13,16 +13,15 @@ redirect_from: /
 
 {% for activity in site.data.activities %}
   <li>
-    <span>{{ activity[1].name }}</span>
-    <div class="tile">
-      <img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
-      <div class="overlay">
-        <div class="info">
-          {{ activity[1].short_intro }}<br /><br />
-          <a href={{ activity[1].link | relative_url }}>Learn more!</a>
-        </div>
+      <div class="tile">
+        <a href={{ activity[1].link | relative_url }}>
+          <img src={{ activity[1].cover_photo | relative_url }} alt="{{ activity[1].name }}" />
+          <div class="overlay">
+              {{ activity[1].short_intro }}<br /><br />
+          </div>
+          <span class="tile-name">{{ activity[1].name }}</span>
+        </a>
       </div>
-    </div>
   </li>
 {% endfor %}
 
