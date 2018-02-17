@@ -1,5 +1,6 @@
 databasic:
   name: DataBasic.io and Saint Paul Public Library
+  short_name: Data Literacy
   link: /exchanges/databasic
   cover_photo: /images/databasic_exchange.png
   paragraphs:
@@ -19,6 +20,7 @@ databasic:
 openag:
   name: >
     Open Agriculture Initiative, Akron-Summit County Public Library, and Free Library of Philadelphia
+  short_name: Personal Food Computers
   link: /exchanges/openag
   cover_photo: /images/personal_food_computer.jpg
   paragraphs:
@@ -49,6 +51,7 @@ openag:
 
 playful_words:
   name: Playful Words and Boston Public Library
+  short_name: Early Literacy
   link: /exchanges/playful-words
   cover_photo: /images/storyblocks.png
   paragraphs:
@@ -73,6 +76,7 @@ playful_words:
 
 scratchx:
   name: ScratchX and Richland Library
+  short_name: Scratch Extensions
   link: /exchanges/scratchx
   cover_photo: /images/scratchx_microbit.png
   paragraphs:
