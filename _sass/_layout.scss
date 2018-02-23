@@ -126,7 +126,7 @@
   grid-gap: 30px;
 
   li {
-    text-align: center;
+    text-align: left;
     padding: 0;
   }
 
@@ -151,7 +151,7 @@
     .tile-name {
       display: inline;
       position: absolute;
-      bottom: 30px;
+      bottom: 15px;
       left: 10px;
       padding: 5px;
       text-align: left;
