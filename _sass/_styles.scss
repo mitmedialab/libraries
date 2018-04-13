@@ -95,6 +95,20 @@ body {
       color: white;
     }
   }
+
+  ul.blog-posts {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      padding-bottom: 1em;
+    }
+  }
+
+  span.date {
+    color: $gray;
+    text-decoration: none !important;
+  }
 }
 
 .details {
