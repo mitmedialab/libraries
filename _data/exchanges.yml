@@ -103,13 +103,13 @@ scratchx:
 
 
 space:
-  name: Space Exploration Initiative, Cambridge Public Library, and Charlotte Mecklenburg Library
+  name: Space Exploration Initiative, Cambridge Public Library, Charlotte Mecklenburg Library, and Wolbach Library at Harvard-Smithsonian Center for Astrophysics
   short_name: CubeSat Co-Building
   link: /exchanges/space
   cover_photo: /images/cubesat.jpg
   paragraphs:
     - >
-      The Media Lab’s <a href="https://www.media.mit.edu/groups/space-exploration/overview/">Space Exploration Initiative</a>, <a href="https://www.cambridgema.gov/cpl.aspx">Cambridge Public Library</a>, <a href="https://www.cmlibrary.org/">Charlotte Mecklenburg Library</a>, and <a href="https://library.cfa.harvard.edu/">Wolbach Library at Harvard-Smithsonian Center for Astrophysics</a> have teamed-up to build on STEM and climate-related outreach programs that the Space Initiative has been piloting with Boston-area youth. Together, they aim to create materials and workshops for libraries to engage community members with space exploration technologies and STEM learning. You can find more information about their Climate CubeSat Co-building Outreach Program (C3) and activity development at <a href="https://c3.pubpub.org/">c3.pubpub.org</a>.
+      The Media Lab’s <a href="https://www.media.mit.edu/groups/space-exploration/overview/">Space Exploration Initiative</a>, <a href="https://www.cambridgema.gov/cpl.aspx">Cambridge Public Library</a>, <a href="https://www.cmlibrary.org/">Charlotte Mecklenburg Library</a>, and <a href="https://library.cfa.harvard.edu/">Wolbach Library</a> at Harvard-Smithsonian Center for Astrophysics have teamed-up to build on STEM and climate-related outreach programs that the Space Initiative has been piloting with Boston-area youth. Together, they aim to create materials and workshops for libraries to engage community members with space exploration technologies and STEM learning. You can find more information about their Climate CubeSat Co-building Outreach Program (C3) and activity development at <a href="https://c3.pubpub.org/">c3.pubpub.org</a>.
   team_members:
     - name: Ariel Ekblaw
       institution: Space Exploration Initiative, MIT Media Lab
