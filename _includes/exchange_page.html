@@ -7,7 +7,7 @@
     <p>{{ p }}</p>
   {% endfor %}
 
-  <p>Interested in learning more about the {{ exchange.name }} residency exchange? Questions about how to get involved? <a class="typeform-share link" href="https://mllearning.typeform.com/to/xPXkaa" data-mode="drawer_right" target="_blank">Get in touch!</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script></p>
+  <p>Interested in learning more about the {{ exchange.name }} residency exchange? Questions about how to get involved? <a id="typform-exchange-page" class="typeform-share link" href="https://mllearning.typeform.com/to/xPXkaa" data-mode="drawer_right" target="_blank">Get in touch!</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script></p>
 </div>
 
 <div class="details">
@@ -28,7 +28,7 @@
     <h3>Read about the exchange experience:</h3>
     <ul class="blog-posts">
       {% for item in exchange.blog_posts %}
-        <li><a href={{ item.url }}>{{ item.description }}</a></li>
+        <li><a id="{{ item.url }}" href={{ item.url }}>{{ item.description }}</a></li>
       {% endfor %}
     </ul>
   {% endif %}
@@ -37,7 +37,7 @@
     <h3>{{ exchange.documentation.title }}</h3>
       <ul>
         {% for d in exchange.documentation.items %}
-          <li><a href="{{ d.url }}">{{ d.name }}</a></li>
+          <li><a id="{{ d.name }}" href="{{ d.url }}">{{ d.name }}</a></li>
         {% endfor %}
       </ul>
   {% endif %}
