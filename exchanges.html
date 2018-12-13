@@ -14,7 +14,7 @@ permalink: /exchanges/
 {% for exchange in site.data.exchanges %}
   <li>
     <div class="tile">
-      <a href={{ exchange[1].link | relative_url }}>
+      <a id="{{ exchange[1].name }}" href={{ exchange[1].link | relative_url }}>
         <img src={{ exchange[1].cover_photo | relative_url }} alt="{{ exchange[1].name }}" />
         <div class="overlay">
             {{ exchange[1].name }}
