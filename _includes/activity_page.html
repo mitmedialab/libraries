@@ -28,7 +28,7 @@
   <h2>{{ activity.name }}</h2>
   <p>{{ activity.description }}</p>
 
-  <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a class="typeform-share link" href="https://mllearning.typeform.com/to/xPXkaa" data-mode="drawer_right" target="_blank">Get in touch!</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script></p>
+  <p>Have you implemented a {{ short_name }} activity? Have feedback to share? Questions about how to get started? <a id="{{ activity.name }}-typeform-link" class="typeform-share link" href="https://mllearning.typeform.com/to/xPXkaa" data-mode="drawer_right" target="_blank">Get in touch!</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()</script></p>
 </div>
 
 <div class="details">
@@ -46,7 +46,7 @@
   </ul>
   <ul class="resource-links">
     {% for resource in activity.resources %}
-      <li><a href={{ resource.url }} target="_blank">{{ resource.description }}</a></li>
+      <li><a id="{{ resource.url }}" href={{ resource.url }} target="_blank">{{ resource.description }}</a></li>
     {% endfor %}
   </ul>
 </div>
