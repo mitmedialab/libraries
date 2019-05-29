@@ -6,7 +6,7 @@ chibitronics:
   description: >
     Chibitronics circuit stickers are easy-to-use, peel-and-stick electronic modules for building circuits on paper. They are a friendly introduction to electronics, allowing young people to learn circuits and programming while they create beautiful interactive works of art!
   kit_info: >
-    Try our paper circuits <a href="/">facilitation kit</a>, designed to make it easy for new facilitators to get started with this activity!
+    Try our paper circuits <a href="/kits/paper-circuits">facilitation kit</a>, designed to make it easy for new facilitators to get started with this activity!
   cover_photo: /images/circuit_stickers.jpg
   video: >
     <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -169,9 +169,9 @@ scratch+microbit:
   short_intro: >
     Scratch+micro:bit bridges creativity on the screen and in the physical world. When you attach a micro:bit to yourself or an object, you become the interface for interacting with Scratch!
   description: >
-    Scratch helps young people learn to think creatively, reason systematically, and work collaboratively — essential skills for life in the 21st century. Scratch + micro:bit bridges creativity on the screen and in the physical world. When you attach the tiny programmable computer to yourself or an object, you become the interface for interacting with Scratch.<br/><br>This activity grew out of one of our PLIX Residency Exchanges. <a href="https://plix.media.mit.edu/exchanges/">Learn more</a> about the design team!
+    Scratch helps young people learn to think creatively, reason systematically, and work collaboratively — essential skills for life in the 21st century. Scratch + micro:bit bridges creativity on the screen and in the physical world. When you attach the tiny programmable computer to yourself or an object, you become the interface for interacting with Scratch.<br/><br>This activity grew out of one of our PLIX Residency Exchanges. <a href="https://plix.media.mit.edu/exchanges/scratchx">Learn more</a> about the design team!
   kit_info: >
-    Try our Scratch + micro:bit <a href="/">facilitation kit</a>, designed to make it easy for new facilitators to get started with this activity!
+    Try our Scratch + micro:bit <a href="/kits/scratch+microbit">facilitation kit</a>, designed to make it easy for new facilitators to get started with this activity!
   cover_photo: /images/scratch-microbit.png
   video: >
     <iframe src="https://player.vimeo.com/video/65583694" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
