@@ -1,0 +1,77 @@
+paper_circuits:
+  name: Paper Circuits Kit
+  link: /kits/paper-circuits
+  short_intro: >
+    NEW! Create and craft simple circuits through paper arts & crafts.
+  description: >
+    The PLIX Paper Circuits Facilitation Kit is a friendly introduction to electronics, allowing participants to learn the basics of circuits while they create beautiful interactive works of art!
+  cover_photo: /images/paper-circuits-kit-square.jpg
+  overview_photo: /images/paper-circuits-kit-full.jpg
+  supplies:
+    - <a href="https://www.adafruit.com/product/1128" target="_blank">Copper tape</a> with conductive adhesive 
+    - <a href="https://www.adafruit.com/product/654" target="_blank">Coin cell batteries</a>
+    - Various colors of <a href="https://www.amazon.com/DiCUNO-450pcs-Colors-Emitting-Assorted/dp/B073QMYKDM" target="_blank">LEDs</a> (e.g. red, yellow, white, green, blue)
+    - Binder clips
+    - Colorful paper
+    - Copies of our Paper Circuits zine*, assembled <span class="no-wrap">(<a href="https://drive.google.com/a/media.mit.edu/file/d/1sfMNDDpxLQcFrJPly29orfA2qGVbIjYZ/view?usp=sharing" target="_blank"><i class="fas fa-download"></i> PDF</a>)</span>
+    - Copies of Troubleshooting Tips for Paper Circuits <span class="no-wrap">(<a href="https://drive.google.com/file/d/10-lEuNrLS-v2V0hwbg4izcsqKCU_u6Pw/view" target="_blank"><i class="fas fa-download"></i> PDF</a>)</span>
+    - Several basic circuit & creative project <a href="https://docs.google.com/document/d/18B5PpN8hs1s-zWhyxRwEsZZMKEEUL94VMQl5glKCuYM/edit?ts=5ce32ecb#heading=h.b7041buo2eit" target="_blank">examples</a> 
+    - <a href="https://docs.google.com/document/d/1N4Y_shoPN4P2ngXeU1sABqNwCUvh9SduF6Mi6vv_qj8/edit?usp=sharing" target="_blank">Read Me!</a> Letter to the Librarian
+    - PLIX <a href="https://docs.google.com/document/d/16l57Ik3_F2n3RePDzUZkZiVCUezKT57rSImnAtW57iA/edit?usp=sharing" target="_blank">Facilitation Techniques</a> guide
+  paragraphs: 
+    - As of 4/29/19, this kit cost us about $16-$24 (depending on what you buy in bulk, and where). For purchasing electronic parts, we use online shops like Sparkfun or Adafruit, but there are many other options as well (e.g. local hardware stores, Amazon).
+  other_supplies:
+    - Chibitronics <a href="https://chibitronics.myshopify.com/collections/add-ons-accessories/products/red-yellow-and-blue-megapack-circuit-stickers" target="_blank">circuit stickers</a>
+    - Scissors
+    - Scotch tape
+  photos:
+    - url: /images/paper-circuits-kit-example-02.gif
+      caption: Valentine’s card with button! 
+    - url: /images/paper-circuits-kit-example-01.png
+      caption: Our Library Outreach Coordinator, Lydia, wearing a light-up bracelet she made.
+    - url: /images/paper-circuits-kit-example-03.png
+      caption: “Cat with Creepy Light-Up Eyes” from a vintage photo remix workshop.
+    - url: /images/paper-circuits-kit-example-04.png
+      caption: Light box sculpture inspired by <a href="http://jamesturrell.com/work/type/" target="_blank">James Turrell’s art</a>.
+
+scratch_microbit:
+  name: Scratch + micro:bit Kit
+  link: /kits/scratch+microbit
+  short_intro: >
+    NEW! Tinker with and bridge the physical and digital worlds with this blend of storytelling, coding, and making!
+  description: >
+    The PLIX Scratch + micro:bit Facilitation Kit uses storytelling, coding, and making to engage participants in physical tinkering while helping to bridge the cap between the physical and digital worlds!
+  cover_photo: /images/scratch-microbit-kit-square.jpg
+  overview_photo: /images/scratch-microbit-kit-full.jpg
+  supplies:
+    - <a href="https://www.sparkfun.com/products/14336" target="_blank">micro:bit Go’s</a> (includes micro:bit, USB connector, battery pack)&#8212we like to have one micro:bit per 2-4 participants
+    - Scratch Coding Cards <span class="no-wrap">(<a href="https://resources.scratch.mit.edu/www/cards/en/scratch-cards-all.pdf" target="_blank"><i class="fas fa-download"></i> PDF</a>)</span> or <a href="https://nostarch.com/scratchcards3" target="_blank">buy your own set</a>
+    - <a href="https://www.sparkfun.com/products/12978" target="_blank">Alligator test leads</a>
+    - Micro:bit Scratch Coding Cards (still in prototype phase, email us if you'd like a copy!)
+    - Copies of our "Tinkering with Scratch+micro:bits" zine*, printed and assembled <span class="no-wrap">(<a href="https://drive.google.com/a/media.mit.edu/file/d/1i8R1tOO8EqiPA3_Eq4EuBA0ixNcrX3J7/view?usp=sharing" target="_blank"><i class="fas fa-download"></i> PDF</a>)</span>
+    - Several creative project <a href="https://docs.google.com/document/d/18B5PpN8hs1s-zWhyxRwEsZZMKEEUL94VMQl5glKCuYM/edit?ts=5ce32ecb#heading=h.6evijkb96qa" target="_blank">examples</a> 
+    - <a href="https://docs.google.com/document/d/1thi8dEgrqfEeMbSg05qs0ZuomKkpqwRuklXKUthJsuo/edit?usp=sharing" target="_blank">Read Me!</a> Letter to the Librarian
+    - PLIX <a href="https://docs.google.com/document/d/16l57Ik3_F2n3RePDzUZkZiVCUezKT57rSImnAtW57iA/edit?usp=sharing" target="_blank">Facilitation Techniques</a> guide 
+  paragraphs: 
+    - As of 4/29/19, this kit cost us about $33&#8211$41, depending on if you buy the Scratch Coding Cards or if you just print your own. If you do print your own, we recommend printing two cards per page horizontally (landscape). See below for sample print settings.
+    - <div class="image-container">
+       <img src="../images/scratch-cards-print-settings.png" alt="Print Settings for Scratch Cards" />
+       <p class="img-caption"> The print settings we recommend for printing your own Scratch cards.</p>
+      </div>
+  other_supplies:
+    - Scissors
+    - Rubber bands 
+    - Colorful tape
+    - Pipe cleaners
+    - A collection of dollar store objects (or anything you have lying around!)
+  photos:
+    - url: /images/scratch-microbit-kit-example-01.gif
+      caption: Poking the succulent makes the on-screen bug move!
+    - url: /images/scratch-microbit-kit-example-02.gif
+      caption: Making a virtual mess ;)
+    - url: /images/scratch-microbit-kit-example-04.png
+      caption: Sample materials you can pick up at a dollar store to use with this kit.
+
+
+
+

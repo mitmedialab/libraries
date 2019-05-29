@@ -1,0 +1,52 @@
+{% assign kit = site.data.kits[page.data_name] %}
+
+<div class="main">
+  <h2>{{ kit.name }}</h2>
+  <p>{{ kit.description }}</p>
+  <p>Below you'll find the full list of materials for our PLIX {{ kit.name }} so you can make your own! All of our PLIX facilitation kits include supplies to get started, example project ideas, and facilitation tips for librarians.</p>
+  <div class="image-container">
+    <img src={{ kit.overview_photo | relative_url }} alt="{{ kit.name }} supplies" />
+    <p class="img-caption"> The materials included in our {{ kit.name }}.</p>
+  </div>
+  <h3>Materials List for the {{ kit.name }}:</h3>
+  <ul>
+    {% for s in kit.supplies %}
+    <li>{{ s }}</li>
+    {% endfor %}
+  </ul>
+  {% for p in kit.paragraphs %}
+    <p>{{ p }}</p>
+  {% endfor %}
+  {% if kit.other_supplies %}
+    <h3>Add-ons & other nice materials to have on hand:</h3>
+    <ul>
+      {% for s in kit.other_supplies %}
+      <li>{{ s }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  
+  <p><b>*A note about zines:</b> Our PLIX zines are designed to be supplementary resources for patrons and librarians to refer to during workshops. They're a quick and easy way for people to learn some fundamentals. You can print them on US Letter paper, and they're easy to assemble. Here’s <a href="https://www.rookiemag.com/2012/05/how-to-make-a-zine/" target="_blank">a resource</a> that shows you step-by-step how to cut and fold them into little booklets!
+ </p>
+  <p>We think it’s important to share what we’re making so anyone can get started with creative learning. All the guides and zines are openly licensed (CC-BY-SA 4.0) and free to download. You can also <a href="/">read more</a> about how we think about designing these kits.</p>  
+</div>
+
+<div class="details">
+  
+  {% if kit.photos %}
+    <div>
+      <h3>Example Projects</h3>
+      <div>
+        {% for image in kit.photos %}
+          <img src={{ image.url | relative_url }} alt="{{ kit.name }} in action" />
+          <p class="img-caption"> {{ image.caption }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  <p class="kit-page-social-media">Are you using or remixing this kit in your library? We'd love to hear from you! Drop us a note, or tag us <b>@heyplix</b> on <a href="https://twitter.com/@heyplix" target="_blank">Twitter</a> and <a href="https://www.instagram.com/heyplix/" target="_blank">Instagram</a>.</p>
+</div>
+
+
+

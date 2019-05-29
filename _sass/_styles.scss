@@ -48,6 +48,9 @@ body {
     padding-bottom: 10px;
   }
 
+  .no-wrap{
+    white-space: nowrap;
+  }
 }
 
 // Header-specific styling for all layouts
@@ -133,6 +136,11 @@ body {
   }
 }
 
+.img-caption {
+  font-size: $small-font;
+  color: $gray;
+}
+
 .no-heading {
   padding-top: 20px;
 }
@@ -202,4 +210,11 @@ div.video {
   span {
     font-size: $small-font;
   }
+  #cc-by-sa-license {
+  font-size: $small-font;
+  color: $gray;
+  text-align: center;
+  }
 }
+
+

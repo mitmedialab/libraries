@@ -5,6 +5,8 @@ chibitronics:
     A series of activities using electronic stickers, which let you create, craft and code technology through arts and crafts.
   description: >
     Chibitronics circuit stickers are easy-to-use, peel-and-stick electronic modules for building circuits on paper. They are a friendly introduction to electronics, allowing young people to learn circuits and programming while they create beautiful interactive works of art!
+  kit_info: >
+    Try our paper circuits <a href="/">facilitation kit</a>, designed to make it easy for new facilitators to get started with this activity!
   cover_photo: /images/circuit_stickers.jpg
   video: >
     <iframe src="https://player.vimeo.com/video/79645054" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -161,35 +163,40 @@ learning_beautiful:
     - /images/learning_beautiful_4.jpg
 
 
-scratch:
-  name: Scratch
-  link: /activities/scratch
+scratch+microbit:
+  name: Scratch + micro:bit
+  link: /activities/scratch+micro:bit
   short_intro: >
-    Tutorials, activities, and starter projects to help people learn Scratch, a visual programming language for making interactive stories, games, and animations.
+    Scratch+micro:bit bridges creativity on the screen and in the physical world. When you attach a micro:bit to yourself or an object, you become the interface for interacting with Scratch!
   description: >
-    With Scratch, you can program your own interactive stories, games, and animations — and share your creations with others in the online community. Scratch helps young people learn to think creatively, reason systematically, and work collaboratively — essential skills for life in the 21st century.
-  cover_photo: /images/scratch.jpg
+    Scratch helps young people learn to think creatively, reason systematically, and work collaboratively — essential skills for life in the 21st century. Scratch + micro:bit bridges creativity on the screen and in the physical world. When you attach the tiny programmable computer to yourself or an object, you become the interface for interacting with Scratch.<br/><br>This activity grew out of one of our PLIX Residency Exchanges. <a href="https://plix.media.mit.edu/exchanges/">Learn more</a> about the design team!
+  kit_info: >
+    Try our Scratch + micro:bit <a href="/">facilitation kit</a>, designed to make it easy for new facilitators to get started with this activity!
+  cover_photo: /images/scratch-microbit.png
   video: >
     <iframe src="https://player.vimeo.com/video/65583694" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   resources:
     - description: Download or purchase Scratch activity cards, tutorials, and educator guides
       url: "https://scratch.mit.edu/tips"
+    - description: Purchase micro:bit Go Bundle from SparkFun
+      url: "https://www.sparkfun.com/products/14336"
     - description: View and download Scratch resources for educators
       url: "https://scratch.mit.edu/educators"
   details:
     age_range: 8 and older
     group_size: 1 or more (1 or 2 per computer)
     facilitators: 0 or more
-    facilitator_skills: Basic familiarity with Scratch
+    facilitator_skills: Basic familiarity with Scratch and micro:bit
     parents_involved: "No"
     activity_type: Self-directed activities
-    cost: Free! Scratch activity cards can be downloaded and printed or purchased
-    space_and_equipment: Computer with internet access
+    cost: The cost of micro:bits (depending on vendor, one is usually ~$17). Scratch activity cards can be downloaded and printed or purchased. Tape and toys around your library will be helpful, too!
+    space_and_equipment: Computer with internet access and some room to play around
+
   photos:
+    - /images/scratch-microbit-example2.png
     - /images/scratch_in_use.jpg
-    - /images/scratch_example_01.png
-    - /images/scratch_example_02.png
-    - /images/scratch_example_03.png
+    - /images/scratch-microbit-example-1.jpg
+    - /images/scratch-microbit-example-3.gif
 
 spin:
   name: Spin

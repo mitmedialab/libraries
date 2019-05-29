@@ -1,0 +1,27 @@
+---
+layout: tiles
+title: Facilitation Kits
+permalink: /kits/
+---
+<div class="activities-headline">
+  <h2>Our PLIX facilitation kits make it easy for you to get started with creative learning in your library.</h2>
+  <p>New to facilitation? New to creative learning? Just want to try out one of our PLIX activities in your library? These facilitation kits are a great place to get started.</p>
+</div>
+
+<ul class="tiles">
+
+{% for kit in site.data.kits %}
+  <li>
+      <div class="tile">
+        <a id="{{ kit[1].name }}" href={{ kit[1].link | relative_url }}>
+          <img src={{ kit[1].cover_photo | relative_url }} alt="{{ kit[1].name }}" />
+          <div class="overlay">
+              {{ kit[1].short_intro }}<br /><br />
+          </div>
+          <span class="tile-name">{{ kit[1].name }}</span>
+        </a>
+      </div>
+  </li>
+{% endfor %}
+
+</ul>
