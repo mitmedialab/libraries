@@ -27,11 +27,11 @@ paper_circuits:
   photos:
     - url: /images/paper-circuits-kit-example-02.gif
       caption: Valentine’s card with button! 
-    - url: /images/paper-circuits-kit-example-01.png
+    - url: /images/paper-circuits-kit-example-01.jpg
       caption: Our Library Outreach Coordinator, Lydia, wearing a light-up bracelet she made.
-    - url: /images/paper-circuits-kit-example-03.png
+    - url: /images/paper-circuits-kit-example-03.jpg
       caption: “Cat with Creepy Light-Up Eyes” from a vintage photo remix workshop.
-    - url: /images/paper-circuits-kit-example-04.png
+    - url: /images/paper-circuits-kit-example-04.jpg
       caption: Light box sculpture inspired by <a href="http://jamesturrell.com/work/type/" target="_blank">James Turrell’s art</a>.
 
 scratch_microbit:
@@ -70,7 +70,7 @@ scratch_microbit:
       caption: Poking the succulent makes the on-screen bug move!
     - url: /images/scratch-microbit-kit-example-02.gif
       caption: Making a virtual mess ;)
-    - url: /images/scratch-microbit-kit-example-04.png
+    - url: /images/scratch-microbit-kit-example-04.jpg
       caption: Sample materials you can pick up at a dollar store to use with this kit.
 
 

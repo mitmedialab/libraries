@@ -193,10 +193,10 @@ scratch+microbit:
     space_and_equipment: Computer with internet access and some room to play around
 
   photos:
-    - /images/scratch-microbit-example2.png
+    - /images/scratch-microbit-example-2.jpg
     - /images/scratch_in_use.jpg
-    - /images/scratch-microbit-example-1.jpg
-    - /images/scratch-microbit-example-3.gif
+    - /images/scratch-microbit-kit-example-01.gif
+    - /images/scratch-microbit-kit-example-02.gif
 
 spin:
   name: Spin
