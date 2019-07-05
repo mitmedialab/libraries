@@ -40,7 +40,8 @@ scratch_microbit:
   short_intro: >
     NEW! Tinker with and bridge the physical and digital worlds with this blend of storytelling, coding, and making!
   description: >
-    The PLIX Scratch + micro:bit Facilitation Kit uses storytelling, coding, and making to engage participants in physical tinkering while helping to bridge the cap between the physical and digital worlds!
+    - The PLIX Scratch + micro:bit Facilitation Kit uses storytelling, coding, and making to engage participants in physical tinkering while helping to bridge the cap between the physical and digital worlds!
+    - <b>Important:</b> As of 7/5/19, Scratch + micro:bit only works with Windows and MacOS computers with Bluetooth. They do not work with Chromebooks.
   cover_photo: /images/scratch-microbit-kit-square.jpg
   overview_photo: /images/scratch-microbit-kit-full.jpg
   supplies:
