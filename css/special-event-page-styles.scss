@@ -1,0 +1,101 @@
+---
+---
+$custom-pink: #E62565;
+$custom-black: #011627;
+$custom-white: #FDFFFC;
+$custom-teal: #2EC4B6;
+$custom-yellow: #FF9F1C;
+
+body {
+  padding-top: 1.5rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: $custom-black;
+  background-color: #c6eeeb;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%232ec4b6' fill-opacity='0.21'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bg-white{
+	background-color: $custom-white;
+}
+
+.bg-pink{
+	background-color: $custom-pink;
+}
+
+.btn-pink{
+	background-color: $custom-pink;
+	color: $custom-white;
+}
+
+.btn-pink:hover{
+	background-color: darken($custom-pink,10%);
+	color: lighten($custom-white,2%);
+}
+
+.btn-yellow{
+	background-color: $custom-yellow;
+	color: $custom-white;
+}
+
+.btn-yellow:hover{
+	background-color: darken($custom-yellow,10%);
+	color: lighten($custom-white,2%);
+}
+
+.btn-teal{
+	background-color: $custom-teal;
+	color: $custom-white;
+}
+
+.btn-teal:hover{
+	background-color: darken($custom-teal,10%);
+	color: lighten($custom-white,2%);
+}
+
+a{
+	color: $custom-pink;
+}
+
+a:hover{
+	color: darken($custom-pink,10%);
+}
+
+.main-container{
+  max-width: 760px;
+}
+
+#more-info-card{
+  height: 100%;
+}
+
+#team-list{
+  max-width: 370px;
+}
+
+.line-height-2{
+  line-height: 1.25em;
+}
+
+.card-header{
+	//background-color: darken($custom-white,1%);
+}
+
+#back-to-top{
+	position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+#knight-logo{
+	max-height: 40px;
+}
+
+mark{
+  background-color: $custom-white;
+}
+
+footer{
+  min-height: 70px;
+  max-width: 760px;
+}
