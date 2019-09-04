@@ -70,11 +70,24 @@ a:hover{
 }
 
 .line-height-2{
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 .emojis{
-	font-size: 2em;
+	font-size: 2.3em;
+}
+
+@media (max-width: 575.98px) {
+	.emojis{
+		display: none !important;
+	}
+	#emoji-headline-container{
+		margin: 1em !important;
+	}
+}
+
+.emoji-headline{
+	font-size: 1.2em;
 }
 
 #back-to-top{
