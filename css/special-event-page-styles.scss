@@ -60,24 +60,21 @@ a:hover{
 	color: darken($custom-pink,10%);
 }
 
+.faq-card-header-link:hover{
+	background-color: lighten($custom-pink, 42%);
+	color: $custom-pink;
+}
+
 .main-container{
   max-width: 760px;
 }
 
-#more-info-card{
-  height: 100%;
-}
-
-#team-list{
-  max-width: 370px;
-}
-
 .line-height-2{
-  line-height: 1.25em;
+  line-height: 1.5em;
 }
 
-.card-header{
-	//background-color: darken($custom-white,1%);
+.emojis{
+	font-size: 2em;
 }
 
 #back-to-top{
@@ -87,15 +84,14 @@ a:hover{
     display: none;
 }
 
+#plix-logo{
+	max-height: 50px;
+}
+
 #knight-logo{
 	max-height: 40px;
 }
 
 mark{
   background-color: $custom-white;
-}
-
-footer{
-  min-height: 70px;
-  max-width: 760px;
 }
