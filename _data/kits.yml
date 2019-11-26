@@ -53,14 +53,14 @@ scratch_microbit:
     - <a href="https://docs.google.com/document/d/1thi8dEgrqfEeMbSg05qs0ZuomKkpqwRuklXKUthJsuo/edit?usp=sharing" target="_blank">Read Me!</a> Letter to the Librarian
     - PLIX <a href="https://docs.google.com/document/d/16l57Ik3_F2n3RePDzUZkZiVCUezKT57rSImnAtW57iA/edit?usp=sharing" target="_blank">Facilitation Techniques</a> guide 
   paragraphs: 
-    - <b>Please note! Currently, Chromebooks do not work with Scratch + micro:bit. You will need a Mac or Windows computer with Bluetooth. </b>
+    - <b>Scratch is now available for ChromeOS and Android! You will be able to use Scratch + micro:bit with Chromebooks. Learn more here - <a href="https://scratch.mit.edu/microbit">scratch.mit.edu/microbit</a> </b>
     - As of 4/29/19, this kit cost us about $33&#8211$41, depending on if you buy the Scratch Coding Cards or if you just print your own. If you do print your own, we recommend printing two cards per page horizontally (landscape). See below for sample print settings.
     - <div class="image-container">
        <img src="../images/scratch-cards-print-settings.png" alt="Print Settings for Scratch Cards" />
        <p class="img-caption"> The print settings we recommend for printing your own Scratch cards.</p>
       </div>
   other_supplies:
-    - Laptops with Mac or Windows OS & Bluetooth
+    - Laptops with Bluetooth
     - Scissors
     - Rubber bands 
     - Colorful tape
